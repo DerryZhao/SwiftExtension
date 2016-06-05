@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B3CCB0E1D040B1700E2B791 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3CCB0D1D040B1700E2B791 /* UIView+Extension.swift */; };
 		7BD98CE11D01F23E00399AF4 /* SwiftExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BD98CE01D01F23E00399AF4 /* SwiftExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7BD98CE81D01F23E00399AF4 /* SwiftExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD98CDD1D01F23E00399AF4 /* SwiftExtension.framework */; };
 		7BD98CED1D01F23E00399AF4 /* SwiftExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD98CEC1D01F23E00399AF4 /* SwiftExtensionTests.swift */; };
 		7BD98CF81D01F2B300399AF4 /* UIImageView+DownLoadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD98CF71D01F2B300399AF4 /* UIImageView+DownLoadImage.swift */; };
-		7BD98CFA1D01F43B00399AF4 /* String+HtmlToString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD98CF91D01F43B00399AF4 /* String+HtmlToString.swift */; };
+		7BD98CFA1D01F43B00399AF4 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD98CF91D01F43B00399AF4 /* String+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B3CCB0D1D040B1700E2B791 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		7BD98CDD1D01F23E00399AF4 /* SwiftExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BD98CE01D01F23E00399AF4 /* SwiftExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftExtension.h; sourceTree = "<group>"; };
 		7BD98CE21D01F23E00399AF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -32,7 +34,7 @@
 		7BD98CEC1D01F23E00399AF4 /* SwiftExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftExtensionTests.swift; sourceTree = "<group>"; };
 		7BD98CEE1D01F23E00399AF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BD98CF71D01F2B300399AF4 /* UIImageView+DownLoadImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+DownLoadImage.swift"; sourceTree = "<group>"; };
-		7BD98CF91D01F43B00399AF4 /* String+HtmlToString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+HtmlToString.swift"; sourceTree = "<group>"; };
+		7BD98CF91D01F43B00399AF4 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +80,8 @@
 				7BD98CE01D01F23E00399AF4 /* SwiftExtension.h */,
 				7BD98CE21D01F23E00399AF4 /* Info.plist */,
 				7BD98CF71D01F2B300399AF4 /* UIImageView+DownLoadImage.swift */,
-				7BD98CF91D01F43B00399AF4 /* String+HtmlToString.swift */,
+				7BD98CF91D01F43B00399AF4 /* String+Extension.swift */,
+				7B3CCB0D1D040B1700E2B791 /* UIView+Extension.swift */,
 			);
 			path = SwiftExtension;
 			sourceTree = "<group>";
@@ -201,8 +204,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B3CCB0E1D040B1700E2B791 /* UIView+Extension.swift in Sources */,
 				7BD98CF81D01F2B300399AF4 /* UIImageView+DownLoadImage.swift in Sources */,
-				7BD98CFA1D01F43B00399AF4 /* String+HtmlToString.swift in Sources */,
+				7BD98CFA1D01F43B00399AF4 /* String+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +398,7 @@
 				7BD98CF31D01F23E00399AF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7BD98CF41D01F23E00399AF4 /* Build configuration list for PBXNativeTarget "SwiftExtensionTests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +407,7 @@
 				7BD98CF61D01F23E00399AF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
