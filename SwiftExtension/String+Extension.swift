@@ -10,7 +10,7 @@ import UIKit
 
 extension String {
     //MARK: html to format string
-    func htmlFormatString() -> String{
+   public func htmlFormatString() -> String{
         let str = self.dataUsingEncoding(NSUTF8StringEncoding)
         let attributedStr = try? NSAttributedString(data: str!, options: [NSDocumentTypeDocumentAttribute:NSHTMLTextDocumentType,NSCharacterEncodingDocumentAttribute:NSUTF8StringEncoding], documentAttributes: nil)
         return (attributedStr?.string.stringByReplacingOccurrencesOfString("%", withString: " "))!

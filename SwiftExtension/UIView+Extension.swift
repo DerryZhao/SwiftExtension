@@ -11,67 +11,67 @@ import UIKit
 //MARK: UIView布局
 extension UIView {
 
-    func setX(x: CGFloat) {
+   public func setX(x: CGFloat) {
         self.frame.origin.x = x
     }
     
-    func setY(y: CGFloat) {
+   public func setY(y: CGFloat) {
         self.frame.origin.y = y
     }
     
-    func x() -> CGFloat {
+    public func x() -> CGFloat {
         return self.frame.origin.x
     }
     
-    func y() -> CGFloat {
+    public func y() -> CGFloat {
         return self.frame.origin.y
     }
     
-    func setCenterX(centerX: CGFloat) {
+    public func setCenterX(centerX: CGFloat) {
         self.center.x = centerX
     }
     
-    func setCenterY(centerY: CGFloat) {
+    public func setCenterY(centerY: CGFloat) {
         self.center.y = centerY
     }
     
-    func centerX() -> CGFloat {
+    public func centerX() -> CGFloat {
         return self.center.x
     }
     
-    func centerY() -> CGFloat {
+    public func centerY() -> CGFloat {
         return self.center.y
     }
     
-    func setWidth(width: CGFloat) {
+    public func setWidth(width: CGFloat) {
         self.frame.size.width = width
     }
     
-    func setHeight(height: CGFloat){
+    public func setHeight(height: CGFloat){
         self.frame.size.height = height
     }
     
-    func width() -> CGFloat {
+    public func width() -> CGFloat {
         return self.bounds.width
     }
     
-    func height() -> CGFloat {
+    public func height() -> CGFloat {
         return self.bounds.height
     }
     
-    func setSize(size: CGSize) {
+    public func setSize(size: CGSize) {
         self.frame.size = size
     }
     
-    func setOrigin(origin: CGPoint) {
+    public func setOrigin(origin: CGPoint) {
         self.frame.origin = origin
     }
     
-    func size() -> CGSize {
+    public func size() -> CGSize {
         return self.frame.size
     }
     
-    func origin() -> CGPoint {
+    public func origin() -> CGPoint {
         return self.frame.origin
     }
 
@@ -80,7 +80,7 @@ extension UIView {
 //MARK: UIView view操作
 extension UIView {
 
-    func removeAllSubview() {
+    public func removeAllSubview() {
         for view in self.subviews {
             view.removeFromSuperview()
         }
