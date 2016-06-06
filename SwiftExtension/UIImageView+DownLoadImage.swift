@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIImageView {
+extension public UIImageView {
 
     public func loadImageWithUrl(url: String) -> NSURLSessionDownloadTask?{
         let url = NSURL(string: url)
