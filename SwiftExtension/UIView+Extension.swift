@@ -9,7 +9,7 @@
 import UIKit
 
 //MARK: UIView布局
-extension UIView {
+extension public UIView {
 
    public func setX(x: CGFloat) {
         self.frame.origin.x = x
@@ -78,7 +78,7 @@ extension UIView {
 }
 
 //MARK: UIView view操作
-extension UIView {
+extension public UIView {
 
     public func removeAllSubview() {
         for view in self.subviews {
