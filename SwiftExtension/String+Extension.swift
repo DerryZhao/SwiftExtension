@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension String {
+extension public String {
     //MARK: html to format string
    public func htmlFormatString() -> String{
         let str = self.dataUsingEncoding(NSUTF8StringEncoding)
