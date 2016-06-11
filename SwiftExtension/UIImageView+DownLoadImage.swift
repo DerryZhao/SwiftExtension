@@ -73,7 +73,7 @@ extension UIImageView {
         var data:NSData?
         let path = getFullCachePathFromUrl(url)
         if NSFileManager.defaultManager().fileExistsAtPath(path) {
-            data = NSData.dataWithContentsOfMappedFile(path) as? NSData
+            data = NSData(contentsOfFile: path)
         }
         return data
     }
