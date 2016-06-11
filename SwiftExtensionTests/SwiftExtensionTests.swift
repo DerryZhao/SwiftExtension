@@ -23,6 +23,7 @@ class SwiftExtensionTests: XCTestCase {
     
     func testExample() {
         print("<b>123".htmlFormatString())
+        print("9876543210".toDate())
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }

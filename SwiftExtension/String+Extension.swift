@@ -16,4 +16,14 @@ extension String {
         return (attributedStr?.string.stringByReplacingOccurrencesOfString("%", withString: " "))!
     }
     
+    public func toDate() -> String {
+        let index = self.startIndex.advancedBy(10)
+        let str = self.substringToIndex(index)
+        let timeSta:NSTimeInterval = Double(str)!
+        let dfmatter = NSDateFormatter()
+        dfmatter.dateFormat="yyyy-MM-dd hh:mm"
+        let date = NSDate(timeIntervalSince1970: timeSta)
+        return dfmatter.stringFromDate(date)
+    }
+    
 }
